@@ -1,0 +1,19 @@
+using System;
+
+public class ifelse
+{
+    public static void Main(string[] arg)
+    {
+        int num = 10;
+        
+        if(num % 2 == 0)
+        {
+            Console.WriteLine("It is an Even number " + num);
+        }
+        else 
+        {
+            Console.WriteLine("It is an ODD number " + num);
+        }
+        
+    }
+}
