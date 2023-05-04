@@ -1,0 +1,39 @@
+// using System;
+
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Console.WriteLine("Hello World");
+//         }
+//     }
+
+
+// using public modifier
+//We can also specify public modifier before class and Main() method.
+//Now, it can be accessed from outside the class also.
+// using System;
+// public class Program{
+//     static void Main(string[] args )
+//     {
+//         Console.WriteLine("Hello World");
+        
+//     }
+// }
+    
+//Using namespace
+// We create a classes inside the namespace , it is used to group related classes it is 
+//used to categorized classes easy to maintain
+
+using System;
+namespace consoleaplication
+{
+    public class program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World");
+        }
+    }
+}
+
