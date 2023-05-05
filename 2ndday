@@ -1,0 +1,15 @@
+using System;
+
+class newprogram
+{
+  static void Main ()
+  {
+    int a = 34;
+    float b = 34.4F;
+    double c = 34.54D;
+    
+      Console.WriteLine (a);
+      Console.WriteLine (b);
+      Console.WriteLine (c);
+  }
+}
