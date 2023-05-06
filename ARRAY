@@ -1,0 +1,85 @@
+using System;
+class Arrayprog
+{
+    public static void Main()
+    {
+        int[] arr = new int[5]; // Creating the array 
+        arr[0] = 10; //initialiuzing the array 
+        arr[2] = 20;
+        arr[5] = 30;
+        
+        //traversing the array 
+        for(int i = 0 ; i < arr.Length ; i++)
+        {
+            Console.WriteLine(arr[i]);
+        }
+    }
+}
+
+
+
+using System;
+class Arryprog
+{
+    public static void Main()
+    {
+        // int[] arr = new int[5]{10,35,76,34,2};
+        // int[] arr = {10,35,76,34,2};
+        // you can omit the size of the array
+        
+        for(int i = 0 ; i< arr.Length; i++)
+        {
+            Console.WriteLine(arr[i]);
+        }
+    }
+}
+
+//
+using System;
+class programArrayByFunction
+{
+  static void printArray (int[]aar)
+  {
+    Console.WriteLine ("Printing an array : ");
+    for (int i = 0; i < aar.Length; i++)
+      Console.WriteLine (aar[i]);
+
+  }
+  public static void Main ()
+  {
+    int[] arr1 = { 10, 11, 20, 02 };
+    int[] arr2 = { 10, 11, 20, 02, 90 };
+
+    printArray (arr2);
+    printArray (arr1);
+  }
+
+}
+
+using System;
+class program1
+{
+    static void maxmnumber(int[] arr)
+    {
+        int max = arr[0];
+        for(int i = 0 ; i < arr.Length ; i++)
+        {
+            if (max < arr[i])
+            {
+                max = arr[i];
+            }
+            
+            
+        }
+        Console.WriteLine("The maximum number is " +max);
+        
+    }
+    
+    public static void Main()
+    {
+        int[] arr1 = {25,10,20,15,40,50};
+        int[] arr2 = {12,23,64,11,54};
+        maxmnumber(arr2);
+        maxmnumber(arr1);
+    }
+}
